@@ -30,7 +30,7 @@ app.post("/api/notes", (req, res) => {
     const notes = JSON.parse(data);
 
     const newNote = {
-        id: notes.length > 0 ? notes[notes.length - 1].id + 1 : 1,
+        id: notes.length > 0 ? Math.max(...notes.map(note => note.id)) + 1 : 1,
         title: req.body.title,
         content: req.body.content
     };

@@ -5,8 +5,18 @@
     "content": "Created using the Quick Notes frontend."
   },
   {
-    "id": 2,
-    "title": "sofware",
-    "content": "this is important now"
+    "id": 3,
+    "title": "java",
+    "content": "It is a programming language"
+  },
+  {
+    "id": 4,
+    "title": "website",
+    "content": "search anything"
+  },
+  {
+    "id": 5,
+    "title": "Testing ID",
+    "content": "Checking unique note ID"
   }
 ]
